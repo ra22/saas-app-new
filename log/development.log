@@ -611,3 +611,1090 @@ WHERE c.contype = 'f'
   AND t3.nspname = ANY (current_schemas(false))
 ORDER BY c.conname
 [0m
+
+
+Started GET "/" for ::1 at 2016-11-17 17:45:53 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (4.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 1730ms (Views: 1713.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap-datepicker3.self-5b184ae3d4fca25edb3723754a4b6da18accc933fa4104f93726fe8964694fc9.css?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/artifacts.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.self-77d963462a71b85aa6c39f0110994006fed4301154d937da52eb3884ff813853.css?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.self-c1a8821f7eb1b195061d7706930814ecc6bd44db4c68f208da5fe14845fa11ea.css?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.self-2cb3834583dfbaf0a39c7139750bf963e05d79cbe811126997e013400be5d8dc.css?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/custom.self-5df9e758d1f1ee3e234f366807ab86062333f0be24b53e7f79fe1516fc1dcfd1.css?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/members.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/devise_bootstrap_views.self-8377692d1c6464cc14727785d3d65359b3d3db8a2b0c7fba9c3397abda6282c3.css?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/projects.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/scaffolds.self-019b2b10572698e3d4206b26ce504e5319859cb7559d88da6cd84a7970d3b460.css?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/application.self-167193cd81d9330d9ddb5c4ec7b44214fea529aa8a94f3a86e6526e4f652fc02.css?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/transition.self-db278e3a8fa6249c16796b113ebd29e11ef4e2cd021618ed84895d524a4511e0.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/alert.self-ebce91ec66c71bcee451ea7da9128fd1bf8faa02c6d22ea04c598423431e4c08.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/modal.self-ab1767545e27c0dbd36971e656ae4927171f673e3d932cdec2cbef39e991952b.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/dropdown.self-8bb9309b6c24a4ba6b94026a049d25b13bdc0553b6fe83255c14a715ba624cc4.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/scrollspy.self-bd0c6724cdc75302fe98dfeff923112b76c1673cf4a0752a7050b7feea15594c.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tab.self-7e3ee4a243bb416b5f0111a0be08f8547c5d72ba71fe4afe4a4a007f5cb4e10e.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/popover.self-cd672ecad3b549e1dbd89bfd044e5812d6fdade56f42d48e3acee0c3f4614526.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/button.self-ceb562de883e04359bb2c06f07bdf6ecf065cc8a5027e2e58857c5e91b0b68e3.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/collapse.self-a87553101c955a01e2e8c81fad69a16582ddbf58fe95d5eb335dde5567af7647.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/tooltip.self-d7f9330825307d053f68da11bb9ddc9b070df72deef3d115f2f3d55f66b17457.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/carousel.self-5d09995e01b647168888180d40e271f9a6759d68ae7ac029d7026af58813d376.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap/affix.self-14e04bbe71282aa039322ab93e3a3a886ddede5f59a2f365f7c861f697bbeb21.js?body=1" for ::1 at 2016-11-17 17:45:55 -0500
+
+
+Started GET "/assets/twitter/bootstrap.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/core.self-cd822b9f65a9a2b2b0b769b2644db6b0af910b57414ba107a970e69f8ceb65b6.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ar.self-3b6d7157be553c75fb586e9bbcb1caf9ffb68b3e52621ce7a0b4d80b3816a41e.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.az.self-e95a3ffa2c92ab9fd1c490585f0664f385a0c529f4b462c4e8f1fab196728f98.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.bg.self-962a18198db67ac87d9079f67b2167072ca4588cb77341999c5d6a93334a9143.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.bs.self-a9f88ff3048eda7a3915d3bc5fee831813bf64357688ca1d71249f190b5b3c2e.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ca.self-5b45648d805fd85d75bd7ec1e5b7687e376cb5aa045afedd5b39bed12294b4ad.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cs.self-d8764534d484a8ad1107f25d5055c72def7515ff37b74002e171bc01791e2569.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.cy.self-6269279f98dbec07d08be043c80d3698c8db6da6098298b06c7e9eaca989db3a.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.da.self-3cb1f2509fcef48537941cbfc1e01034b1803fb2a32d1fbccf9eea1d71a3d144.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.de.self-8f102e7f86b9946186833c94b9471b364f3659d66fceafd6e58a5d5be052ba7b.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.el.self-c47144f58a0c79632a13f38f22efd1b9f2d077e4d6ed1184c473b92bb0a17383.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.self-38cccea3ac2b2d606d1a126f2ec2ccde034e22fd3f015e8631a50a49b68f0112.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.eo.self-bb3c1772c20b81e485802d43cdcda342c29037880fca098f5a82db81c8decae7.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.es.self-7b176a0b2abe7ca2c0b539ae98132e78271645757cea7e703f09d72512c4596c.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.et.self-8d6af09ae9e4558db67ad818cac5de0451f7a10dc31a6e2987a715562524c44b.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.eu.self-0df62f8cfe7e8b05855195ee28292e9cf35ec174cd33f7feac7c62e5e6066bda.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fa.self-20ab53975a47e1cdba4e7a41e0f0c567a2a699d53118ccdf6ea5aae33b692d15.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fi.self-2609765afa68eb2078568f8d785522a588a73222538228637427eac53496df66.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fo.self-fd8c0c500526cb16dd180ba9d832a4e5e0d40c3a570318a73ee2076b32cbbd1a.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.self-5f23c5db98016569363f57fc9e7c82a26ad7477b5363ed1c9c9a7a963d85e1fb.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.fr.self-d84cdfc30a275763b285ebe4102b706374160cf38ef7eadad1415ff85dd6394c.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.gl.self-1fccddef3fa899f6fc9f859fb7ea9d5839b554e6ec225bc2c195bd7f67ea55ad.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.he.self-9d26121395049e408a1223d6eeccf625e4969a6a5d52f740af1ad533646e93a4.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hr.self-7e61fabfb46c1eb015b85ee997ba8710aebb4640736f5ac596cfd37f32caab66.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hu.self-f49dd94a82276c26c3441a8f5834842aaff8e1015d2ee90af3a842482685b1b3.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.hy.self-70220bff1ab952b0b3067737b9028ce5c515b4bbe35d11ed19410c5ed409f011.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.id.self-ea07114145eb6345c3e6b4e0ab99c8dcb42b05e7fc972cbde0997b752895ebc9.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.is.self-eb9734e137173e9c043266c371c2dc6723f896d0d10cd0d9489ab448425352de.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.self-717fdb47d5142b72e9e7f64eec844ae20deacf76e64b484fc6c52139ea64e607.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.it.self-56ef8866cfc930293b65c329508bfe558d121cbf8435e33b23e029d61e5a8e88.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ja.self-cb335efac68187f94ccc34ed07c05f7cf6ace4ae97770209f1e89c92892f0610.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ka.self-b8cf8fca37ec25ed1c3872fed7e439361179491173710ea1dfa3e784e9c5bbd0.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.kh.self-9d2694499d40685986d7db3a0fb8145a88ed95a042b4d7b86545493ce3c1201f.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.kk.self-6c236b50ab3afd171e2d6ea0371416af9cc39ebfdf30c4ce5c05f4b23225ccee.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ko.self-12e2460ea718f37ae021de4e07ec6d4480bd3f68782d7f3f99f5e3dfd632d075.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.kr.self-2c4ff027cc32c6144d3460f8e1b848fbc60db128d486ae541883497f289127bb.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lt.self-5105be60dc7ceb38f49e3498a04d360410f2e2110cc499275c97b515bcdf1383.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.lv.self-5d8e8777406208ba6d788c14eb94dc6ec161efe23c377bb1688acd8a3dc80c70.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.me.self-bc3ded41fba54540cb7c229e2a81c54e1dc95aa060e13249996c3af17a07d925.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.mk.self-2879e14c87c2ed072afa02e973d28c25eccda71604f545f325f5ccb7f9566d9a.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.mn.self-9bde9683a01be40a036bf1d3df9376fc1855a9df29248e5604ab8c1926bafe4f.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ms.self-5448409786aef52a30a3fa0309fed12e2972d62f3ffcecd3daad3661d2b3a3bb.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nb.self-23d93b9aa4964b350b9cfee120db8019aa9bcc05504cc4dd160f2c959a2434f2.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.self-bfb38de2367de481a0d11431d284ad94299fa29c946e4768950b888c72aff6c6.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.nl.self-be4a6c286e7a5fde2d837b5931cc546adb8446a4f0817a576a6eeb6219d81d18.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.no.self-835c27d08aa948acba7a496420da4d74da46ffbe5b7b900d927debc46878ceba.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pl.self-bd9ed91cf705ebdec0d35a577541cb18a7b106c255b63b14048b839454783b50.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.self-5173a75045dc82ec545ebbe3f328a33a6efeb9c1c2497181726353c163900ab7.js?body=1" for ::1 at 2016-11-17 17:45:56 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.pt.self-f27b7e53b6eb44a91383992a348cac6a6059432f118c835bd0172f94e0e60557.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ro.self-b0f0745b965ffc6c72f79cf8ab7962617897fd538084871b7316538cabf5ab3d.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.self-9778ded684088fc0d8cd4abcb87572575e59f1027cdbfa98570db215dfed95d0.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.rs.self-968b0850c75dc75987a4287bd692cad3d074729c3a0f67f92d48cfb6ccd1eac9.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ru.self-4e8d9a4dc60207a247dd0e4d7c0f172c8cd08f8b4f1e8e86dd7384489559aafb.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sk.self-3efc873c11a7475b5d63b3a102e52348fe766ddcf6ddc50b7187b8507de62463.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sl.self-18b1915d69a94d8c0c7dc954a99ae4786ff2f67d4925370ccb926692fc536885.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sq.self-3224e5dba45c9b9362543f5efe2a02d23b71b7181ea0b7a92fc4637559f17799.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.self-be5aec102faba5f69237b7bb53843eed7f75c417025cf9105616fe3bea3e3da0.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sr.self-0fdd9f114cd83480c0d41f6c4cd9ff5d41984d64f6d7944bd4739f2b9a8b0559.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sv.self-59511a9cf8697e071e3e45937a4ffa74ce67edf099d767fcfcd43544833b639f.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.sw.self-6b5e12e322803172a7bb234b38a2774a18b7057caba09bf10e95276875879a35.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.th.self-38ccaf19cff8c13178de6efb294156266bbb5ce6652531d4b53f7f869986ce71.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.tr.self-32d4dcbd80fec4c33ced2cc50217d1cdfe9b351815a939878dedd504f0f29eec.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.ua.self-d3090a654f9c3b2ecf04746b1d8616e9fbcd4f6063435f91e76ffd00688684f4.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.uk.self-ba78379f87a0202998faa6e7c5b20476712eb0431e243819807b20ef110db58f.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.vi.self-36dc3fbbffa4afffa02f84c934c42cc69a7b8bf9637967f9d510c3a595c06bfd.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.self-ea1ea635099f9e93b2f5903108a2f939897810d090fa5959545f9cd4ecfaef14.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.self-919520009565c93f98d81b453874a8adc045d992e4cf63904186e82f852e123b.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap-datepicker/index.self-75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/artifacts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/bootstrap.self-fdc98dee79ee88255e10cac6caa91338165cb76cf0d263744d8d90011fc2ef8f.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/credit_card_form.self-dbe242a49a4225cc483dfa71cb1af7f2fe6e9c8b929a4c2b742eb5a512a0b403.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/datepicker.self-1582e1abeeb324272f2b8585b03a40b1c53dce2b10d7ac78dcf07635882592b2.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/members.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/projects.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/assets/meeting1-e5ac7994fb000781715378a479a24f827f0b8bacc0a6bb6aef72501f0d84b230.png" for ::1 at 2016-11-17 17:45:57 -0500
+
+
+Started GET "/" for ::1 at 2016-11-17 17:51:01 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered common/_navbar.html.erb (1.0ms)
+Completed 200 OK in 889ms (Views: 888.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 17:53:28 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered common/_navbar.html.erb (1.3ms)
+Completed 200 OK in 881ms (Views: 879.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fontawesome-webfont-66db52b456efe7e29cec11fa09421d03cb09e37ed1b567307ec0444fd605ce31.woff" for ::1 at 2016-11-17 17:53:29 -0500
+
+
+Started GET "/users/sign_in" for ::1 at 2016-11-17 17:53:51 -0500
+Processing by Milia::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (172.5ms)
+  Rendered common/_navbar.html.erb (0.4ms)
+Completed 200 OK in 822ms (Views: 765.3ms | ActiveRecord: 35.3ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-11-17 17:53:56 -0500
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (23.0ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+Completed 200 OK in 714ms (Views: 711.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-11-17 17:58:11 -0500
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...1px solid white": expected ";", was ":"):
+    12:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
+    13:     <![endif]-->
+    14: 
+    15:     <%= stylesheet_link_tag "application", :media => "all" %>
+    16: 
+    17:     <!-- For third-generation iPad with high-resolution Retina display: -->
+    18:     <!-- Size should be 144 x 144 pixels -->
+  app/assets/stylesheets/custom.css.scss:126
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__4415960249330297395_70114703164440'
+
+
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (90.0ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (1.5ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (73.9ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.9ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (205.9ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-11-17 17:58:33 -0500
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.7ms)
+Completed 500 Internal Server Error in 88ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "  padding: 6px": expected ";", was ":"):
+    12:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
+    13:     <![endif]-->
+    14: 
+    15:     <%= stylesheet_link_tag "application", :media => "all" %>
+    16: 
+    17:     <!-- For third-generation iPad with high-resolution Retina display: -->
+    18:     <!-- Size should be 144 x 144 pixels -->
+  app/assets/stylesheets/custom.css.scss:129
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__4415960249330297395_70114703164440'
+
+
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.2ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (74.1ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.6ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (65.4ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (147.3ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-11-17 17:58:43 -0500
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 128ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "  background: #000": expected ";", was ":"):
+    12:       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js" type="text/javascript"></script>
+    13:     <![endif]-->
+    14: 
+    15:     <%= stylesheet_link_tag "application", :media => "all" %>
+    16: 
+    17:     <!-- For third-generation iPad with high-resolution Retina display: -->
+    18:     <!-- Size should be 144 x 144 pixels -->
+  app/assets/stylesheets/custom.css.scss:137
+  app/views/layouts/application.html.erb:15:in `_app_views_layouts_application_html_erb__4415960249330297395_70114703164440'
+
+
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.9ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.3ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (49.4ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Aidy/.rvm/gems/ruby-2.3.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (114.9ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-11-17 17:58:53 -0500
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.8ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+Completed 200 OK in 916ms (Views: 914.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.self-c8afe59e70b87730f6319c6ad3fc3f640c39d29bc35636c932da9e59da0dbc44.css?body=1" for ::1 at 2016-11-17 17:58:54 -0500
+
+
+Started GET "/users/sign_up?plan=premium" for ::1 at 2016-11-17 17:59:19 -0500
+Processing by RegistrationsController#new as HTML
+  Parameters: {"plan"=>"premium"}
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (7.9ms)
+  Rendered common/_navbar.html.erb (0.8ms)
+Completed 200 OK in 605ms (Views: 603.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up?plan=free" for ::1 at 2016-11-17 17:59:25 -0500
+Processing by RegistrationsController#new as HTML
+  Parameters: {"plan"=>"free"}
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (8.3ms)
+  Rendered common/_navbar.html.erb (0.5ms)
+Completed 200 OK in 607ms (Views: 605.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-11-17 18:01:12 -0500
+Processing by Milia::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.2ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+Completed 200 OK in 830ms (Views: 828.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-11-17 18:01:15 -0500
+Processing by Milia::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I+1cXsqtffrj3gTqw5vyARXXVeGybFJ4i0skl0WqMZP77laOENGRq8YtBieblAbg/fhprfUFIzMw4mv1j0+/EQ==", "user"=>{"email"=>"j@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+MILIA >>>>> [change tenant] new: %	old: %
+MILIA >>>>> [reset tenant] 
+  [1m[35mUser Load (42.2ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "j@example.com"]]
+Completed 401 Unauthorized in 79ms (ActiveRecord: 42.4ms)
+Processing by Milia::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"I+1cXsqtffrj3gTqw5vyARXXVeGybFJ4i0skl0WqMZP77laOENGRq8YtBieblAbg/fhprfUFIzMw4mv1j0+/EQ==", "user"=>{"email"=>"j@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+  Rendered common/_navbar.html.erb (0.4ms)
+Completed 200 OK in 885ms (Views: 781.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-11-17 18:01:27 -0500
+Processing by Milia::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YI9iE4kNvEiMg70VZ8+cVk/KBgEBzQnH19iNBBf3Fai4jGjDU3FQGalwv9g/wGi3p+U6TUakeIxsccJm3RKbKg==", "user"=>{"email"=>"j@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+MILIA >>>>> [change tenant] new: %	old: %
+MILIA >>>>> [reset tenant] 
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "j@example.com"]]
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.4ms)
+Processing by Milia::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YI9iE4kNvEiMg70VZ8+cVk/KBgEBzQnH19iNBBf3Fai4jGjDU3FQGalwv9g/wGi3p+U6TUakeIxsccJm3RKbKg==", "user"=>{"email"=>"j@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.html.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.1ms)
+  Rendered common/_navbar.html.erb (0.5ms)
+Completed 200 OK in 795ms (Views: 696.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for ::1 at 2016-11-17 18:01:32 -0500
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (5.5ms)
+  Rendered common/_navbar.html.erb (1.1ms)
+Completed 200 OK in 687ms (Views: 685.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users" for ::1 at 2016-11-17 18:01:51 -0500
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"heWFwcCZxGZnp03uNToeHpdNYFf1OH6IBNgLOFp28XRd5o8RGuUoN0JUTyNtNer/f2JcG7JRD8O/cURakJN/9g==", "user"=>{"email"=>"a@example.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "tenant"=>{"name"=>"Stem", "plan"=>"free"}, "payment"=>{"card_number"=>"", "card_cvv"=>"", "card_expires_month"=>"", "card_expires_year"=>""}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mTenant Exists (20.2ms)[0m  [1mSELECT  1 AS one FROM "tenants" WHERE "tenants"."name" = 'Stem' LIMIT 1[0m
+  [1m[35mSQL (2.1ms)[0m  INSERT INTO "tenants" ("plan", "name", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["plan", "free"], ["name", "Stem"], ["created_at", "2016-11-17 23:01:51.270657"], ["updated_at", "2016-11-17 23:01:51.270657"]]
+MILIA >>>>> [change tenant] new: 2	old: %
+  [1m[36mUser Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'a@example.com' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."confirmation_token" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["confirmation_token", "d07c33de4babecc3badd0e2126b049705dd6430af9655db684dd6bd4de566be9"]]
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("email", "encrypted_password", "is_admin", "skip_confirm_change_password", "created_at", "updated_at", "confirmation_token", "confirmation_sent_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["email", "a@example.com"], ["encrypted_password", "$2a$10$H1APzpd8CY0KSXd6jDjcXeE.do6mpPAzPcYHqFaVsmSF/xrRNq4a6"], ["is_admin", "t"], ["skip_confirm_change_password", "t"], ["created_at", "2016-11-17 23:01:51.360731"], ["updated_at", "2016-11-17 23:01:51.360731"], ["confirmation_token", "Y_beDLJ-6gBx7-yRoM86"], ["confirmation_sent_at", "2016-11-17 23:01:51.626557"]]
+  Rendered devise/mailer/confirmation_instructions.html.erb (1.0ms)
+
+Devise::Mailer#confirmation_instructions: processed outbound mail in 265.7ms
+
+Sent mail to a@example.com (20.4ms)
+Date: Thu, 17 Nov 2016 18:01:51 -0500
+From: do-not-reply@example.com
+Reply-To: do-not-reply@example.com
+To: a@example.com
+Message-ID: <582e36dfe5e8f_52723fc4dd9a829c9004e@Ramis-MacBook-Pro.local.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome a@example.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://ruby-on-rails-123170.nitrousapp.com:3000/users/confirmation?confirmation_token=Y_beDLJ-6gBx7-yRoM86&amp;locale=en">Confirm my account</a></p>
+
+  [1m[35mTenant Load (0.3ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Exists (20.6ms)[0m  [1mSELECT  1 AS one FROM "users" INNER JOIN "tenants_users" ON "users"."id" = "tenants_users"."user_id" WHERE (users.tenant_id IS NULL) AND "tenants_users"."tenant_id" = $1 AND "users"."id" = $2 LIMIT 1[0m  [["tenant_id", 2], ["id", 2]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "tenants_users" ("tenant_id", "user_id") VALUES ($1, $2)  [["tenant_id", 2], ["user_id", 2]]
+MILIA >>>>> [register user/org] devise: signup user success - 
+Redirected to http://localhost:3000/
+MILIA >>>>> [register user/org] signup user/tenant success - 
+  [1m[36mSQL (5.0ms)[0m  [1mINSERT INTO "members" ("first_name", "last_name", "user_id", "tenant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["first_name", "Admin"], ["last_name", "Please edit me"], ["user_id", 2], ["tenant_id", 2], ["created_at", "2016-11-17 23:01:52.082067"], ["updated_at", "2016-11-17 23:01:52.082067"]]
+  [1m[35mMember Load (7.3ms)[0m  SELECT  "members".* FROM "members" WHERE (members.tenant_id = 2) AND "members"."user_id" = $1 LIMIT 1  [["user_id", 2]]
+  [1m[36m (2.5ms)[0m  [1mCOMMIT[0m
+Completed 302 Found in 992ms (ActiveRecord: 65.6ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 18:01:52 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+Completed 200 OK in 580ms (Views: 578.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 18:02:46 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered common/_navbar.html.erb (0.5ms)
+Completed 200 OK in 798ms (Views: 797.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/confirmation?confirmation_token=Y_beDLJ-6gBx7-yRoM86&amp;locale=en" for ::1 at 2016-11-17 18:02:50 -0500
+Processing by ConfirmationsController#show as HTML
+  Parameters: {"confirmation_token"=>"Y_beDLJ-6gBx7-yRoM86", "amp"=>nil, "locale"=>"en"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."confirmation_token" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["confirmation_token", "Y_beDLJ-6gBx7-yRoM86"]]
+MILIA >>>>> [confirm user] devise pass-thru - a@example.com
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."confirmation_token" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["confirmation_token", "Y_beDLJ-6gBx7-yRoM86"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "users" SET "confirmed_at" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["confirmed_at", "2016-11-17 23:02:50.708405"], ["updated_at", "2016-11-17 23:02:50.709089"], ["id", 2]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = $7  [["last_sign_in_at", "2016-11-17 23:02:50.712351"], ["current_sign_in_at", "2016-11-17 23:02:50.712351"], ["last_sign_in_ip", "::1/128"], ["current_sign_in_ip", "::1/128"], ["sign_in_count", 1], ["updated_at", "2016-11-17 23:02:50.713277"], ["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mTenant Load (0.5ms)[0m  SELECT "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1  [["user_id", 2]]
+MILIA >>>>> [change tenant] new: 2	old: %
+Redirected to http://localhost:3000/
+Completed 302 Found in 22ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 18:02:50 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+MILIA >>>>> [Tenant#change_tenant] new: 2	old:2
+  [1m[35mTenant Load (0.2ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (6.4ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "projects" WHERE "projects"."tenant_id" = $1 LIMIT 1) subquery_for_count  [["tenant_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."tenant_id" = $1[0m  [["tenant_id", 2]]
+  Rendered projects/_list.html.erb (14.7ms)
+  Rendered home/index.html.erb within layouts/application (16.5ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+Completed 200 OK in 671ms (Views: 654.9ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 18:05:42 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+MILIA >>>>> [Tenant#change_tenant] new: 2	old:%
+  [1m[36mTenant Load (0.2ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "projects" WHERE "projects"."tenant_id" = $1 LIMIT 1) subquery_for_count[0m  [["tenant_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."tenant_id" = $1  [["tenant_id", 2]]
+  Rendered projects/_list.html.erb (2.9ms)
+  Rendered home/index.html.erb within layouts/application (10.2ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+Completed 200 OK in 716ms (Views: 711.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tenants/2/projects/new" for ::1 at 2016-11-17 18:05:44 -0500
+Processing by ProjectsController#new as HTML
+  Parameters: {"tenant_id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTenant Load (0.5ms)[0m  SELECT "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1  [["user_id", 2]]
+MILIA >>>>> [change tenant] new: 2	old: 2
+  [1m[36mTenant Load (0.9ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered projects/_form.html.erb (7.9ms)
+  Rendered projects/new.html.erb within layouts/application (17.4ms)
+  Rendered common/_navbar.html.erb (0.7ms)
+Completed 200 OK in 648ms (Views: 636.1ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/members/new" for ::1 at 2016-11-17 18:05:53 -0500
+Processing by MembersController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTenant Load (0.3ms)[0m  [1mSELECT "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1[0m  [["user_id", 2]]
+MILIA >>>>> [change tenant] new: 2	old: 2
+  Rendered members/new.html.erb within layouts/application (3.9ms)
+  Rendered common/_navbar.html.erb (0.5ms)
+Completed 200 OK in 667ms (Views: 662.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/edit" for ::1 at 2016-11-17 18:05:57 -0500
+Processing by RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+MILIA >>>>> [failed auth user] 
+  Rendered devise/registrations/edit.html.erb within layouts/application (3.8ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+Completed 200 OK in 677ms (Views: 673.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/users/edit" for ::1 at 2016-11-17 18:06:11 -0500
+Processing by RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+MILIA >>>>> [failed auth user] 
+  Rendered devise/registrations/edit.html.erb within layouts/application (4.3ms)
+  Rendered common/_navbar.html.erb (0.3ms)
+Completed 200 OK in 617ms (Views: 614.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/edit" for ::1 at 2016-11-17 18:06:15 -0500
+Processing by RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.9ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+MILIA >>>>> [failed auth user] 
+  Rendered devise/registrations/edit.html.erb within layouts/application (5.2ms)
+  Rendered common/_navbar.html.erb (0.4ms)
+Completed 200 OK in 648ms (Views: 644.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/members/new" for ::1 at 2016-11-17 18:06:23 -0500
+Processing by MembersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTenant Load (0.3ms)[0m  SELECT "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1  [["user_id", 2]]
+MILIA >>>>> [change tenant] new: 2	old: 2
+  Rendered members/new.html.erb within layouts/application (2.3ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+Completed 200 OK in 575ms (Views: 570.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 18:07:07 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (8.2ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+MILIA >>>>> [Tenant#change_tenant] new: 2	old:%
+  [1m[36mTenant Load (7.8ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.6ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "projects" WHERE "projects"."tenant_id" = $1 LIMIT 1) subquery_for_count[0m  [["tenant_id", 2]]
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects" WHERE "projects"."tenant_id" = $1  [["tenant_id", 2]]
+  Rendered projects/_list.html.erb (111.3ms)
+  Rendered home/index.html.erb within layouts/application (118.7ms)
+  Rendered common/_navbar.html.erb (1.2ms)
+Completed 200 OK in 1400ms (Views: 1261.7ms | ActiveRecord: 28.8ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2016-11-17 18:07:11 -0500
+Processing by Milia::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"obaOSb5Orck5l/yt5IuVYHgf9JcsUdfX2XJCU+ho55Z5tYSZZDJBmBxk/mC8hGGBkDDI22s4ppxi2w0xIo1pFA=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+MILIA >>>>> [change tenant] new: %	old: 2
+MILIA >>>>> [reset tenant] 
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 15ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 18:07:11 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered common/_navbar.html.erb (0.4ms)
+Completed 200 OK in 504ms (Views: 499.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-11-17 18:07:14 -0500
+Processing by Milia::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (57.2ms)
+  Rendered common/_navbar.html.erb (0.5ms)
+Completed 200 OK in 540ms (Views: 530.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-11-17 18:07:16 -0500
+Processing by Milia::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NmoPnRNS4nPW4/UgsJbW0i9dPBxdy93o9iZepN2s0Bi6m+rVyI6AjheYPlFmwHixabO7LEv1CKCjnGL9E275/Q==", "user"=>{"email"=>"a@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+MILIA >>>>> [change tenant] new: %	old: %
+MILIA >>>>> [reset tenant] 
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "a@example.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "current_sign_in_at" = $1, "sign_in_count" = $2, "updated_at" = $3 WHERE "users"."id" = $4  [["current_sign_in_at", "2016-11-17 23:07:16.343831"], ["sign_in_count", 2], ["updated_at", "2016-11-17 23:07:16.346156"], ["id", 2]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 144ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 18:07:16 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (1.5ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTenant Load (9.0ms)[0m  [1mSELECT  "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1  ORDER BY "tenants"."id" ASC LIMIT 1[0m  [["user_id", 2]]
+MILIA >>>>> [Tenant#change_tenant] new: 2	old:%
+  [1m[35mTenant Load (0.4ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "projects" WHERE "projects"."tenant_id" = $1 LIMIT 1) subquery_for_count  [["tenant_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."tenant_id" = $1[0m  [["tenant_id", 2]]
+  Rendered projects/_list.html.erb (2.6ms)
+  Rendered home/index.html.erb within layouts/application (3.8ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+Completed 200 OK in 640ms (Views: 589.8ms | ActiveRecord: 12.6ms)
+
+
+Started GET "/tenants/2/projects/new" for ::1 at 2016-11-17 18:07:18 -0500
+Processing by ProjectsController#new as HTML
+  Parameters: {"tenant_id"=>"2"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTenant Load (0.5ms)[0m  [1mSELECT  "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1  ORDER BY "tenants"."id" ASC LIMIT 1[0m  [["user_id", 2]]
+MILIA >>>>> [change tenant] new: 2	old: 2
+  [1m[35mTenant Load (0.4ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered projects/_form.html.erb (5.1ms)
+  Rendered projects/new.html.erb within layouts/application (9.8ms)
+  Rendered common/_navbar.html.erb (0.9ms)
+Completed 200 OK in 652ms (Views: 637.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/members/new" for ::1 at 2016-11-17 18:07:24 -0500
+Processing by MembersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTenant Load (0.8ms)[0m  SELECT "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1  [["user_id", 2]]
+MILIA >>>>> [change tenant] new: 2	old: 2
+  Rendered members/new.html.erb within layouts/application (4.1ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+Completed 200 OK in 595ms (Views: 572.8ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/members/new" for ::1 at 2016-11-17 18:09:02 -0500
+Processing by MembersController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTenant Load (0.4ms)[0m  SELECT "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1  [["user_id", 2]]
+MILIA >>>>> [change tenant] new: 2	old: %
+  Rendered members/new.html.erb within layouts/application (2.3ms)
+  Rendered common/_navbar.html.erb (0.5ms)
+Completed 200 OK in 569ms (Views: 563.1ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2016-11-17 18:10:57 -0500
+Processing by Milia::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TsUBLYnHalPnmzCl4DjdMsB1ckih9ObI2aRc3dGjaGeaJHerxulvA1tUwLMXvjx228TVj2K9fzc5tmdCveGFpQ=="}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+MILIA >>>>> [change tenant] new: %	old: %
+MILIA >>>>> [reset tenant] 
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 18:10:57 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered common/_navbar.html.erb (0.4ms)
+Completed 200 OK in 610ms (Views: 609.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2016-11-17 18:11:00 -0500
+Processing by Milia::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.2ms)
+  Rendered common/_navbar.html.erb (0.4ms)
+Completed 200 OK in 640ms (Views: 639.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2016-11-17 18:11:02 -0500
+Processing by Milia::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zAa6OlCuXVLA/iSEKqnHvAbXD+Jqb+xBUYx8DQmpF0gJlgIn9ngjp0hIdBjqYHZZX2JuDE3uIO5OqItDPH27gw==", "user"=>{"email"=>"a@example.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+MILIA >>>>> [change tenant] new: %	old: %
+MILIA >>>>> [reset tenant] 
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "a@example.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5  [["last_sign_in_at", "2016-11-17 23:07:16.343831"], ["current_sign_in_at", "2016-11-17 23:11:02.306318"], ["sign_in_count", 3], ["updated_at", "2016-11-17 23:11:02.308315"], ["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 104ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 18:11:02 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTenant Load (4.2ms)[0m  [1mSELECT  "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1  ORDER BY "tenants"."id" ASC LIMIT 1[0m  [["user_id", 2]]
+MILIA >>>>> [Tenant#change_tenant] new: 2	old:%
+  [1m[35mTenant Load (0.3ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.5ms)[0m  SELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "projects" WHERE "projects"."tenant_id" = $1 LIMIT 1) subquery_for_count  [["tenant_id", 2]]
+  [1m[36m (0.8ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."tenant_id" = $1[0m  [["tenant_id", 2]]
+  Rendered projects/_list.html.erb (4.6ms)
+  Rendered home/index.html.erb within layouts/application (14.2ms)
+  Rendered common/_navbar.html.erb (0.8ms)
+Completed 200 OK in 612ms (Views: 595.6ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/tenants/2/projects/new" for ::1 at 2016-11-17 18:11:04 -0500
+Processing by ProjectsController#new as HTML
+  Parameters: {"tenant_id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTenant Load (1.8ms)[0m  [1mSELECT  "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1  ORDER BY "tenants"."id" ASC LIMIT 1[0m  [["user_id", 2]]
+MILIA >>>>> [change tenant] new: 2	old: 2
+  [1m[35mTenant Load (0.4ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered projects/_form.html.erb (2.6ms)
+  Rendered projects/new.html.erb within layouts/application (6.3ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+Completed 200 OK in 628ms (Views: 618.2ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/tenants/2/projects" for ::1 at 2016-11-17 18:11:36 -0500
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ti6PzZ+qmV5ezfoP3uIpT1VU6cI3HlWQPstKIcl1IM+2tJQ8TJTlshVVSVIrMciq4oT4SNjv35jBiykgtTWv6w==", "project"=>{"title"=>"This is the first project I'm making ever and it feels great holy shit.", "details"=>"I can't believe what is gwanning rn.", "expected_completion_date"=>"2016-11-24", "tenant_id"=>"2"}, "commit"=>"Create Project", "tenant_id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 2]]
+  [1m[35mTenant Load (0.9ms)[0m  SELECT "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1  [["user_id", 2]]
+MILIA >>>>> [change tenant] new: 2	old: %
+  [1m[36mTenant Load (0.3ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mProject Exists (0.4ms)[0m  [1mSELECT  1 AS one FROM "projects" WHERE "projects"."title" = 'This is the first project I''m making ever and it feels great holy shit.' LIMIT 1[0m
+  [1m[35mTenant Load (0.3ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (4.2ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."tenant_id" = $1[0m  [["tenant_id", 2]]
+  [1m[35mSQL (10.4ms)[0m  INSERT INTO "projects" ("title", "details", "expected_completion_date", "tenant_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["title", "This is the first project I'm making ever and it feels great holy shit."], ["details", "I can't believe what is gwanning rn."], ["expected_completion_date", "2016-11-24"], ["tenant_id", 2], ["created_at", "2016-11-17 23:11:36.200972"], ["updated_at", "2016-11-17 23:11:36.200972"]]
+  [1m[36m (5.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 65ms (ActiveRecord: 22.4ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 18:11:36 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+MILIA >>>>> [Tenant#change_tenant] new: 2	old:2
+  [1m[36mTenant Load (0.3ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "projects" WHERE "projects"."tenant_id" = $1 LIMIT 1) subquery_for_count[0m  [["tenant_id", 2]]
+  [1m[35mProject Load (0.3ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."tenant_id" = $1  ORDER BY "projects"."id" ASC LIMIT 1  [["tenant_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."tenant_id" = $1[0m  [["tenant_id", 2]]
+  Rendered projects/_list.html.erb (10.7ms)
+  Rendered home/index.html.erb within layouts/application (13.0ms)
+  Rendered common/_navbar.html.erb (0.4ms)
+Completed 200 OK in 650ms (Views: 639.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/tenants/2/projects/1" for ::1 at 2016-11-17 18:11:38 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"tenant_id"=>"2", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTenant Load (0.3ms)[0m  [1mSELECT "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1[0m  [["user_id", 2]]
+MILIA >>>>> [change tenant] new: 2	old: 2
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mTenant Load (0.1ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mTenant Load (0.2ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mArtifact Load (2.9ms)[0m  [1mSELECT "artifacts".* FROM "artifacts" WHERE "artifacts"."project_id" = $1[0m  [["project_id", 1]]
+  Rendered artifacts/_list.html.erb (7.6ms)
+  Rendered projects/show.html.erb within layouts/application (18.5ms)
+  Rendered common/_navbar.html.erb (0.4ms)
+Completed 200 OK in 608ms (Views: 589.0ms | ActiveRecord: 4.7ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 18:11:47 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+MILIA >>>>> [Tenant#change_tenant] new: 2	old:2
+  [1m[36mTenant Load (0.2ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "projects" WHERE "projects"."tenant_id" = $1 LIMIT 1) subquery_for_count[0m  [["tenant_id", 2]]
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."tenant_id" = $1  ORDER BY "projects"."id" ASC LIMIT 1  [["tenant_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."tenant_id" = $1[0m  [["tenant_id", 2]]
+  Rendered projects/_list.html.erb (4.8ms)
+  Rendered home/index.html.erb within layouts/application (7.0ms)
+  Rendered common/_navbar.html.erb (0.6ms)
+Completed 200 OK in 604ms (Views: 596.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/tenants/2/projects/1" for ::1 at 2016-11-17 18:15:48 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"tenant_id"=>"2", "id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+  [1m[36mTenant Load (0.3ms)[0m  [1mSELECT "tenants".* FROM "tenants" INNER JOIN "tenants_users" ON "tenants"."id" = "tenants_users"."tenant_id" WHERE (tenants.tenant_id IS NULL) AND "tenants_users"."user_id" = $1[0m  [["user_id", 2]]
+MILIA >>>>> [change tenant] new: 2	old: %
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mTenant Load (0.1ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mTenant Load (0.2ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mArtifact Load (0.2ms)[0m  [1mSELECT "artifacts".* FROM "artifacts" WHERE "artifacts"."project_id" = $1[0m  [["project_id", 1]]
+  Rendered artifacts/_list.html.erb (1.1ms)
+  Rendered projects/show.html.erb within layouts/application (4.7ms)
+  Rendered common/_navbar.html.erb (0.5ms)
+Completed 200 OK in 589ms (Views: 583.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2016-11-17 18:20:04 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+MILIA >>>>> [Tenant#change_tenant] new: 2	old:%
+  [1m[36mTenant Load (0.2ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "projects" WHERE "projects"."tenant_id" = $1 LIMIT 1) subquery_for_count[0m  [["tenant_id", 2]]
+  [1m[35mProject Load (0.3ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."tenant_id" = $1  ORDER BY "projects"."id" ASC LIMIT 1  [["tenant_id", 2]]
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."tenant_id" = $1[0m  [["tenant_id", 2]]
+  Rendered projects/_list.html.erb (4.9ms)
+  Rendered home/index.html.erb within layouts/application (6.4ms)
+  Rendered common/_navbar.html.erb (1.2ms)
+Completed 200 OK in 720ms (Views: 712.7ms | ActiveRecord: 1.2ms)
+  [1m[36mActiveRecord::SchemaMigration Load (4.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.2ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'ar_internal_metadata'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (3.6ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'artifacts'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.7ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'members'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.6ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'payments'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (2.0ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'projects'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.9ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'sessions'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.8ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'tenants'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (1.7ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'tenants_users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (1.6ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36mUser Load (12.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE (users.tenant_id IS NULL)[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "is_admin" = $1, "updated_at" = $2 WHERE "users"."id" = $3  [["is_admin", "f"], ["updated_at", "2016-11-17 23:31:41.390152"], ["id", 2]]
+  [1m[36m (13.4ms)[0m  [1mCOMMIT[0m
+
+
+Started GET "/" for ::1 at 2016-11-17 18:32:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (37.1ms)[0m  SELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 2]]
+MILIA >>>>> [Tenant#change_tenant] new: 2	old:%
+  [1m[36mTenant Load (4.1ms)[0m  [1mSELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "tenants".* FROM "tenants" WHERE (tenants.tenant_id IS NULL) AND "tenants"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (14.0ms)[0m  [1mSELECT COUNT(count_column) FROM (SELECT  1 AS count_column FROM "projects" WHERE "projects"."tenant_id" = $1 LIMIT 1) subquery_for_count[0m  [["tenant_id", 2]]
+  [1m[35mProject Load (0.3ms)[0m  SELECT  "projects".* FROM "projects" WHERE "projects"."tenant_id" = $1  ORDER BY "projects"."id" ASC LIMIT 1  [["tenant_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "projects" WHERE "projects"."tenant_id" = $1[0m  [["tenant_id", 2]]
+  Rendered projects/_list.html.erb (143.3ms)
+  Rendered home/index.html.erb within layouts/application (153.0ms)
+  Rendered common/_navbar.html.erb (1.8ms)
+Completed 200 OK in 1476ms (Views: 1285.4ms | ActiveRecord: 88.5ms)
+  [1m[36mUser Load (2.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (users.tenant_id IS NULL) AND "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "users" SET "is_admin" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["is_admin", "t"], ["updated_at", "2016-11-17 23:33:00.469623"], ["id", 2]]
+  [1m[35m (11.3ms)[0m  COMMIT
